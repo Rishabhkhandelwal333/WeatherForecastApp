@@ -274,7 +274,7 @@ function rotateRight(array) {
 }
 
 function prevCard() {
-    playSound();
+
     rotateRight(orderArray);
     window.setTimeout(function () {
         for(let i=1; i<=6; i++) {
@@ -285,7 +285,7 @@ function prevCard() {
 }
 
 function nextCard() {
-    playSound();
+   
     rotateLeft(orderArray);
     window.setTimeout(function () {
         for(let i=1; i<=6; i++) {
